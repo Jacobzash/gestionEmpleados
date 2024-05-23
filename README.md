@@ -1,4 +1,4 @@
-# Employee Management System Project
+# Proyecto: Sistema de Gestión de Empleados y Departamentos
 
 El sistema de gestión de empleados y departamentos es una aplicación web integral creada con PHP Laravel, diseñada para agilizar y simplificar la gestión de empleados para las organizaciones. Este sistema brinda opciones para optimizar el trabajo para gestionar los empleados y sus departamentos.
 
