@@ -25,22 +25,25 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 
 **Composer** Descargar el instalador
 
-        ```bash
+    ```bash
     https://getcomposer.org/download/
 
     ```
+    
 **XAMPP** Sistema de base de datos y Servidor Apache 
 
-        ```bash
+    ```bash
     https://www.apachefriends.org/es/index.html
 
     ```
-**Laravel JetStream** 
+    
+**Laravel JetStream**.
 
     ```bash
     https://jetstream.laravel.com/installation.html
 
     ```
+    
 2. **Clonar el repositorio**: clonar este repositorio en su servidor o entorno de desarrollo local.
 
     ```bash
