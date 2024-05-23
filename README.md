@@ -31,23 +31,22 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 > [!IMPORTANT]
 >**XAMPP:** Sistema de base de datos y Servidor Apache
 
-    ```
+```
     https://www.apachefriends.org/es/index.html
+```
 
-    ```
 > [!IMPORTANT]
 >**Laravel JetStream**:
 
-    ```
+```
     https://jetstream.laravel.com/installation.html
+```
 
-    ```
 2. **Clonar el repositorio**: clonar este repositorio en su servidor o entorno de desarrollo local.
 
-    ```
+```
     https://github.com/Jacobzash/gestionEmpleados.git
-
-    ```
+```
 
 3.  **Configuración**: configure los ajustes de conexión de su base de datos en el archivo **.env**.
 
@@ -55,10 +54,10 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 
 > [!IMPORTANT]
 >Instalar JetStream:
-    ```bash
-    composer require laravel/jetstream
 
-    ```
+```bash
+    composer require laravel/jetstream
+```
 
 > [!IMPORTANT]
 >Instalar Livewire:
