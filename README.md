@@ -19,7 +19,8 @@ El sistema de gestión de empleados y departamentos es una aplicación web integ
 
 Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión de empleados en su servidor:
 
-1. **Requisitos previos**: asegúrese de tener PHP, Composer Laravel y un sistema de base de datos (por ejemplo, MySQL) instalado en su servidor.
+> [!NOTE]
+> 1. **Requisitos previos**: asegúrese de tener PHP, Composer Laravel y un sistema de base de datos (por ejemplo, MySQL) instalado en su servidor.
 
 > [!IMPORTANT]
 >**Composer:** Descargar el instalador
@@ -42,15 +43,27 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
     https://jetstream.laravel.com/installation.html
 ```
 
-2. **Clonar el repositorio**: clonar este repositorio en su servidor o entorno de desarrollo local.
+> [!NOTE]
+> 2. **Clonar el repositorio**: clonar este repositorio en su servidor o entorno de desarrollo local.
 
 ```
     https://github.com/Jacobzash/gestionEmpleados.git
 ```
 
-3.  **Configuración**: configure los ajustes de conexión de su base de datos en el archivo **.env**.
+> [!NOTE]
+> 3.  **Configuración**: configure los ajustes de conexión de su base de datos en el archivo **.env**. Por ejemplo:
 
-4. **Instalar dependencias**: instale las dependencias PHP requeridas usando Composer.
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gesEmpleados
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+> [!NOTE]
+> 4. **Instalar dependencias**: instale las dependencias PHP requeridas usando Composer.
 
 > [!IMPORTANT]
 >Instalar JetStream:
@@ -62,34 +75,31 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 > [!IMPORTANT]
 >Instalar Livewire:
 
-    ```bash
+```bash
     php artisan jetstream:install livewire --dark
-
-    ```
+```
 
 > [!IMPORTANT]
 >Despues de instalar estas dependencias, ejecutar los siguientes comandos:
 
-
-    ```bash
+```bash
     composer update
 
     npm install
 
     npm run build
+```
 
-    ```
-
-
-
-5.  **Migraciones de bases de datos**: ejecute las migraciones de bases de datos para crear las tablas necesarias.
+> [!NOTE]
+>5.  **Migraciones de bases de datos**: ejecute las migraciones de bases de datos para crear las tablas necesarias.
 
     ```bash
       php artisan migrate
 
     ```
 
-6.  **Datos de semilla (opcional)**: si desea completar el sistema con datos de muestra, ejecute las sembradoras.
+> [!NOTE]
+>6.  **Datos de semilla (opcional)**: si desea completar el sistema con datos de muestra, ejecute las sembradoras.
 
     ```bash
 
@@ -97,14 +107,16 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 
     ```
 
-7.  **Iniciar la aplicación**: Inicie el servidor de desarrollo Laravel.
+> [!NOTE]
+>7.  **Iniciar la aplicación**: Inicie el servidor de desarrollo Laravel.
 
     ```bash
      php artisan serve
 
     ```
 
-8.  **Acceda a la aplicación**: Abra su navegador web y acceda a la aplicación en **http://localhost:8000** (o la URL proporcionada por el servidor Laravel).
+> [!NOTE]
+>8.  **Acceda a la aplicación**: Abra su navegador web y acceda a la aplicación en **http://localhost:8000** (o la URL proporcionada por el servidor Laravel).
 
 
     ```bash
@@ -112,6 +124,7 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 
     ```
 
-# Uso
+> [!NOTE]
+> # Uso
 
 **Panel de administración**: inicie sesión con sus credenciales de administrador para acceder al conjunto completo de funciones de usuario. Los usuarios pueden iniciar sesión con sus credenciales para acceder a sus datos personales, cambiar la contraseña y administrar su cuenta. Además, los usuarios pueden administrar empleados y departamentos, crear nuevos empleados y departamentos, editar los empleados y departamentos existentes y eliminar empleados y departamentos. Los usuarios también pueden recuperar la contraseña, actualizarla, habilitar la autenticación de dos factores y administrar sus sesiones activas.
