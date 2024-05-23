@@ -24,10 +24,10 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 > [!IMPORTANT]
 >**Composer:** Descargar el instalador
 
-    ```
+```
     https://getcomposer.org/download/
-
-    ```
+```
+    
 > [!IMPORTANT]
 >**XAMPP:** Sistema de base de datos y Servidor Apache
 
