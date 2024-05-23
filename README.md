@@ -25,13 +25,13 @@ Siga los pasos a continuación para configurar y ejecutar el Sistema de gestión
 
 **Composer** Descargar el instalador
 
-    ```bash
+        ```bash
     https://getcomposer.org/download/
 
     ```
 **XAMPP** Sistema de base de datos y Servidor Apache 
 
-    ```bash
+        ```bash
     https://www.apachefriends.org/es/index.html
 
     ```
