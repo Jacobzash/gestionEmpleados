@@ -93,36 +93,30 @@ DB_PASSWORD=
 > [!NOTE]
 >5.  **Migraciones de bases de datos**: ejecute las migraciones de bases de datos para crear las tablas necesarias.
 
-    ```bash
-      php artisan migrate
-
-    ```
+```bash
+    php artisan migrate
+```
 
 > [!NOTE]
 >6.  **Datos de semilla (opcional)**: si desea completar el sistema con datos de muestra, ejecute las sembradoras.
 
-    ```bash
-
-      php artisan db:seed
-
-    ```
+```bash
+    php artisan db:seed
+```
 
 > [!NOTE]
 >7.  **Iniciar la aplicación**: Inicie el servidor de desarrollo Laravel.
 
-    ```bash
-     php artisan serve
-
-    ```
+```bash
+    php artisan serve
+```
 
 > [!NOTE]
 >8.  **Acceda a la aplicación**: Abra su navegador web y acceda a la aplicación en **http://localhost:8000** (o la URL proporcionada por el servidor Laravel).
 
-
-    ```bash
+```bash
     http://localhost:8000
-
-    ```
+```
 
 > [!NOTE]
 > # Uso
