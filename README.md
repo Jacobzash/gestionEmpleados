@@ -7,6 +7,7 @@ El sistema de gestión de empleados y departamentos es una aplicación web integ
 ### Funciones del Usuario:
 
 #### Gestion de Empleados
+
 > [!TIP]
 >El administrador puede crear y administrar la información de los empleados.
 > El administrador puede crear y administrar la información de los departamentos.
