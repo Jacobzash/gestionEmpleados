@@ -9,12 +9,12 @@ El sistema de gestión de empleados y departamentos es una aplicación web integ
 #### Gestion de Empleados
 
 > [!TIP]
->El administrador puede crear y administrar la información de los empleados.
-> El administrador puede crear y administrar la información de los departamentos.
-> Sistema de inicio de sesión seguro para usuarios con autenticación de nombre de usuario y contraseña.
-> Los usuarios cuentan con un sistema de autenticación que les permite registrarse, iniciar sesión y editar su información personal.
-> La plataforma trabaja con un sistema de migraciones.
-> La plataforma se desarrollo en el lenguaje de programación PHP con el Framework Laravel e implementando librerias como JetStream, Livewire, TailwindCss.
+> 1. El administrador puede crear y administrar la información de los empleados.
+> 2. El administrador puede crear y administrar la información de los departamentos.
+> 3. Sistema de inicio de sesión seguro para usuarios con autenticación de nombre de usuario y contraseña.
+> 4. Los usuarios cuentan con un sistema de autenticación que les permite registrarse, iniciar sesión y editar su información personal.
+> 5. La plataforma trabaja con un sistema de migraciones.
+> 6. La plataforma se desarrollo en el lenguaje de programación PHP con el Framework Laravel e implementando librerias como JetStream, Livewire, TailwindCss.
 
 ## Getting Started
 
